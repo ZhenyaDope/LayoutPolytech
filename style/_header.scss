@@ -1,11 +1,19 @@
 .header{
+    .wrapper-pagess{
+        width: 100%;
+        border-bottom:1px solid #E8E8E8;
+    }
+    .wrapper-menu{
+        width:100%;
+        background: #10BCF4;
+    }
     .pages{
         padding:17px 0px;
         display:flex;
         align-items: center;
         width:100%;
         justify-content: space-between;
-        border-bottom:1px solid #E8E8E8;
+        
         &__list{
             display:flex;
             list-style:none;
@@ -104,7 +112,7 @@
         }
     }
     .menu{
-        background: #10BCF4;
+        
         width:100%;
         &__list{
             display:flex;

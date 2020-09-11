@@ -14,13 +14,22 @@ body {
   margin: 0 auto;
 }
 
+.header .wrapper-pagess {
+  width: 100%;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.header .wrapper-menu {
+  width: 100%;
+  background: #10BCF4;
+}
+
 .header .pages {
   padding: 17px 0px;
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-between;
-  border-bottom: 1px solid #E8E8E8;
 }
 
 .header .pages__list {
@@ -132,7 +141,6 @@ body {
 }
 
 .header .menu {
-  background: #10BCF4;
   width: 100%;
 }
 
@@ -232,11 +240,8 @@ body {
 }
 
 .prime {
-  width: 100%;
-}
-
-.prime .container {
   background: #F9FAFC;
+  width: 100%;
 }
 
 .prime .breadcrumbs {
