@@ -230,4 +230,48 @@ body {
   top: 10px;
   right: -25px;
 }
+
+.prime {
+  width: 100%;
+  padding-top: 75px;
+}
+
+.prime .breadcrumbs {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.prime .breadcrumbs__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.prime .breadcrumbs__item {
+  margin-right: 35px;
+  position: relative;
+}
+
+.prime .breadcrumbs__item:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  height: 8px;
+  width: 5px;
+  right: -15px;
+  top: 5px;
+  background: url("../image/prime/arrow.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.prime .breadcrumbs__link {
+  text-decoration: none;
+  color: #3A3A3A;
+  font-size: 13px;
+}
+
+.prime .breadcrumbs__link.active {
+  color: #10BCF4;
+}
 /*# sourceMappingURL=style.css.map */
