@@ -374,7 +374,46 @@ body {
 
 .ask__img {
   position: absolute;
-  top: -50px;
+  top: -30px;
   right: 400px;
+}
+
+.advantages {
+  width: 100%;
+  background: #F9FAFC;
+  padding: 110px 0px;
+}
+
+.advantages .cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages .cards__item {
+  display: flex;
+  justify-content: flex-start;
+  width: 22%;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.advantages .cards img {
+  margin-bottom: 25px;
+}
+
+.advantages .cards__title {
+  font-size: 19px;
+  line-height: 130%;
+  margin-bottom: 13px;
+}
+
+.advantages .cards__description {
+  text-align: center;
+  color: #717171;
+  font-size: 14px;
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
