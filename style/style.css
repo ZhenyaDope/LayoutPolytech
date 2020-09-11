@@ -321,13 +321,13 @@ body {
 .ask {
   width: 100%;
   padding: 110px 0px;
-  position: relative;
 }
 
 .ask__title {
   line-height: 130%;
   font-size: 35px;
   color: #3A3A3A;
+  position: relative;
 }
 
 .ask__description {
@@ -341,6 +341,7 @@ body {
 .ask .buttons {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .ask .buttons__link {
@@ -370,8 +371,8 @@ body {
 
 .ask__img {
   position: absolute;
-  top: -30px;
-  right: 400px;
+  top: -360px;
+  right: 50px;
 }
 
 .advantages {

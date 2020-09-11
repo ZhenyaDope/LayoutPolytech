@@ -1,7 +1,7 @@
 .ask{
     width:100%;
     padding:110px 0px;
-    position: relative;
+    // position: relative;
     .container{
         
     }
@@ -9,6 +9,7 @@
         line-height: 130%;
         font-size:35px;
         color: #3A3A3A;
+        position: relative;
     }
     &__description{
         font-size: 30px;
@@ -20,6 +21,7 @@
     .buttons{
         display:flex;
         align-items:center;
+        position: relative;
         &__link{
             color: #408AB1;
                 padding:18px 35px;
@@ -45,7 +47,7 @@
     }
     &__img{
         position:absolute;
-        top:-30px;
-        right: 400px;
+        top: -360px;
+        right: 50px;
     }
 }
