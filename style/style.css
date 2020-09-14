@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
 body {
   font-family: 'Montserrat';
 }
@@ -292,6 +296,7 @@ body {
   font-size: 50px;
   color: #3A3A3A;
   margin-bottom: 90px;
+  font-weight: bold;
 }
 
 .prime .content__wrap {
@@ -329,8 +334,9 @@ body {
 }
 
 .ask__title {
-  line-height: 130%;
+  font-weight: bold;
   font-size: 35px;
+  line-height: 130%;
   color: #3A3A3A;
   position: relative;
 }
@@ -376,8 +382,13 @@ body {
 
 .ask__img {
   position: absolute;
-  top: -360px;
+  top: -350px;
   right: 50px;
+}
+
+.ask-footer {
+  background: #F9FAFC;
+  margin-bottom: 100px;
 }
 
 .advantages {
@@ -394,7 +405,7 @@ body {
 .advantages .cards__item {
   display: flex;
   justify-content: flex-start;
-  width: 22%;
+  width: 25%;
   flex-direction: column;
   align-items: center;
   padding: 20px;
@@ -890,7 +901,7 @@ body {
   font-size: 35px;
   line-height: 130%;
   color: #3A3A3A;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .about__description {
@@ -1034,5 +1045,165 @@ body {
 
 .about .price .tab-content .priceBody__table tbody tr:nth-child(even) {
   background: #F3F3F3;
+}
+
+.process {
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.process__title {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 130%;
+  color: #3A3A3A;
+  padding-bottom: 50px;
+}
+
+.process__list {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.process__list li {
+  font-size: 21px;
+  line-height: 140%;
+  color: #717171;
+  position: relative;
+}
+
+.process__list li::before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: -20px;
+  height: 10px;
+  width: 10px;
+  border-radius: 100px;
+  border: 1px solid #10BCF4;
+}
+
+.process__text {
+  font-size: 21px;
+  line-height: 140%;
+  color: #717171;
+  margin-bottom: 25px;
+}
+
+.form {
+  width: 100%;
+  padding-bottom: 110px;
+}
+
+.form__title {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 130%;
+  color: #3A3A3A;
+  padding-bottom: 50px;
+}
+
+.form__text {
+  padding: 30px 0px;
+  width: 46%;
+  font-size: 21px;
+  line-height: 140%;
+  color: #717171;
+}
+
+.form__row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__row .formbox {
+  width: 46%;
+  background: #F9FAFC;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 40px;
+}
+
+.form__row .formbox__title {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 130%;
+  color: #3A3A3A;
+  padding-bottom: 5px;
+}
+
+.form__row .formbox__description {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 140%;
+  text-align: center;
+  color: #3A3A3A;
+  padding-bottom: 30px;
+}
+
+.form__row .formbox__description span {
+  color: #10BCF4;
+}
+
+.form__row .formbox__name, .form__row .formbox__phone {
+  width: 100%;
+  height: 60px;
+  padding-left: 15px;
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.form__row .formbox__name::placeholder, .form__row .formbox__phone::placeholder {
+  font-size: 21px;
+  line-height: 140%;
+  color: #9D9D9D;
+}
+
+.form__row .formbox__add {
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #3A3A3A;
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 45px;
+}
+
+.form__row .formbox__add::before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 8px;
+  background: url("../image/form/arrow.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 8px;
+  height: 6px;
+}
+
+.form__row .formbox__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border: 3px solid #10BCF4;
+  border-radius: 10px;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 700;
+  text-align: center;
+  color: #087CA1;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

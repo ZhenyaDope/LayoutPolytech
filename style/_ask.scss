@@ -2,8 +2,9 @@
     width:100%;
     padding:110px 0px;
     &__title{
+        font-weight: bold;
+        font-size: 35px;
         line-height: 130%;
-        font-size:35px;
         color: #3A3A3A;
         position: relative;
     }
@@ -43,7 +44,11 @@
     }
     &__img{
         position:absolute;
-        top: -360px;
+        top: -350px;
         right: 50px;
     }
+}
+.ask-footer{
+    background: #F9FAFC;
+    margin-bottom: 100px;
 }
